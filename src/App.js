@@ -10,6 +10,7 @@ function App() {
     setTriggered(audio.getAttribute('name'))
     audio.currentTime = 0
     audio.play()
+
   }
   
   const handleKeyPress = (e) => {
